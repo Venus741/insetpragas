@@ -8,19 +8,21 @@
   --background: #ffffff;
   --foreground: #171717;
   --bluetype: #0F52BA;
+  --footer: #082032;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-bluetype: var(--bluetype);
+  --color-footer: var(--footer);
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 body {
-  background: var(--background);
+  background: var(--background), var(--footer);
   color: var(--foreground), var(--bluetype);
   font-family: var(--font-sans);
 }

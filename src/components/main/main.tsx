@@ -4,10 +4,10 @@ import WaterTank from "./waterTank";
 
 export default function Main() {
     return(
-        <div className="w-full h-full">
+        <section className="w-full h-full">
             <CentralCard/>
             <PestControl/>
             <WaterTank/>
-        </div>
+        </section>
     )
 }

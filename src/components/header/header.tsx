@@ -2,7 +2,7 @@ import Contact from "./contactButton";
 
 export default function Header() {
     return(
-        <div className="flex flex-col w-full h-171">
+        <section className="flex flex-col w-full h-171">
             <div className="bg-[url('/images/bg-banner.png')] bg-cover w-full h-auto flex-1 flex items-center">    
                 
                 <div className="relative text-start w-200 h-flex m-12">
@@ -17,6 +17,6 @@ export default function Header() {
             </div>
 
 
-        </div>
+        </section>
     )
 }
