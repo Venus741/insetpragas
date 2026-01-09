@@ -6,11 +6,11 @@ export default function Main() {
     return(
         <section className="w-full h-full">
 
-        <div className="w-full h-full">
-            <CentralCard/>
-            <PestControl/>
-            <WaterTank/>
-        </div>
+            <div className="w-full h-full">
+                <CentralCard/>
+                <PestControl/>
+                <WaterTank/>
+            </div>
         </section>
     )
 }
