@@ -1,9 +1,11 @@
+import CentralCard from "./centralCard";
 import PestControl from "./pestControl";
 import WaterTank from "./waterTank";
 
 export default function Main() {
     return(
         <div className="w-full h-full">
+            <CentralCard/>
             <PestControl/>
             <WaterTank/>
         </div>
