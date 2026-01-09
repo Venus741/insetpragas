@@ -1,22 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lexend+Deca:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 @import "tailwindcss";
 
 :root {
+  --font-sans: 'Nunito Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-display: 'Anton', var(--font-sans);
   --background: #ffffff;
   --foreground: #171717;
   --bluetype: #0F52BA;
+  --footer: #082032;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-bluetype: var(--bluetype);
+  --color-footer: var(--footer);
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 body {
-  background: var(--background);
+  background: var(--background), var(--footer);
   color: var(--foreground), var(--bluetype);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }
