@@ -12,8 +12,8 @@ export default function Payment() {
 
             <div className="flex justify-center mt-3">
                 <span className="flex place-content-evenly w-100">
-                    <PixIcon/>
                     <MoneyIcon/>
+                    <PixIcon/>
                     <CardIcon/>
 
                 </span>
