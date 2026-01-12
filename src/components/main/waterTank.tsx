@@ -2,26 +2,35 @@ import Contact from "../header/contactButton";
 
 export default function PestControl() {
     return(
-        <section className="flex w-full h-150 p-7">
-            <div className="flex w-400">
-                <div className="bg-[url('/images/water-tank-clean.png')] bg-contain bg-no-repeat bg-center w-full h-auto flex-1 flex items-center"></div>
+        <section className="flex flex-col md:flex-row w-full p-7 gap-8 md:gap-16">
 
+            <div className="w-full md:w-1/2">
+                <div
+                className="
+                    bg-[url('/images/water-tank-clean.png')]
+                    bg-contain bg-no-repeat bg-center
+                    w-full
+                    h-96 sm:h-[28rem]
+                    md:h-[420px] lg:h-[480px]
+                "
+                />
             </div>
-           
-            <div className="w-400">
-                <div className="flex w-full h-50 items-center p-3">
-                    <h2 className="flex font-bold text-3xl">Serviço especializado de limpeza de caixas d’água e cisternas</h2>
 
-                </div>
+            <div className="w-full md:w-1/2 flex flex-col justify-center">
+                <h2 className="font-bold text-2xl md:text-3xl mb-4">
+                Serviço especializado de limpeza de caixas d’água e cisternas
+                </h2>
 
-                <div className="p-3 mb-20">
-                    <p>Somos especializados na limpeza de caixas d’água e cisternas, utilizando procedimentos seguros e eficientes que garantem a qualidade da água e a proteção da saúde. Atuamos com responsabilidade, cuidado e técnicas adequadas para manter seu abastecimento limpo, seguro e confiável.
-                    </p>
+                <p className="mb-6">
+                Somos especializados na limpeza de caixas d’água e cisternas,
+                utilizando procedimentos seguros e eficientes que garantem a
+                qualidade da água e a proteção da saúde.
+                </p>
 
-                </div>
-
-                <Contact/>
+                <Contact />
             </div>
+
         </section>
+
     )
 }

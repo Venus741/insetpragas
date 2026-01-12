@@ -5,7 +5,7 @@ import Footer from "@/components/footer/Footer";
 
 export default function RootLayout() {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body>
         <Header/>
         <Main/>
