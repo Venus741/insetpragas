@@ -4,7 +4,7 @@ export default function PestControl() {
     return(
         <section className="flex flex-col md:flex-row w-full p-7 gap-8 md:gap-16">
 
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 group overflow-hidden rounded-xl">
                 <div
                 className="
                     bg-[url('/images/water-tank-clean.png')]
@@ -12,6 +12,9 @@ export default function PestControl() {
                     w-full
                     h-96 sm:h-[28rem]
                     md:h-[420px] lg:h-[480px]
+                    transition-transform duration-500 ease-out
+                    scale-95
+                    group-hover:scale-100
                 "
                 />
             </div>
